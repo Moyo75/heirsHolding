@@ -225,7 +225,7 @@ export default class ContentWrapper extends Component {
                       <img alt="img" src="http://hib.hh-converge.com/Converge-vF/img/Group 11 (1).png"  />
                     </div>
                     <div className="col-sm-8 col-8">
-                      <p className="r-9 m-0">LOAN TYPE</p>
+                      {/* <p className="r-9 m-0">LOAN TYPE</p> */}
                       <p className="r-9 m-0">Rent</p>
                     </div>
                     <div className="col-sm-4 col-4">
@@ -235,15 +235,15 @@ export default class ContentWrapper extends Component {
                     </div>
                     <div className="col-sm-8 col-8">
                       <p className="r-14 m-0">
-                        200,000.00 <sup>NGN</sup>{" "}
+                      NGN 200,000.00 {" "}
                       </p>
                       <div className="d-flex w-100">
-                        <p className="r-9 w-45 mb-0 text-danger">Jul - 2018</p>
-                        <p className="r-9 mb-0 text-success">Jun - 2020</p>
+                        {/* <p className="r-9 w-45 mb-0 text-danger">Jul - 2018</p> */}
+                        {/* <p className="r-9 mb-0 text-success">Jun - 2020</p> */}
                       </div>
                     </div>
                     <div className="col-sm-4 col-4">
-                      <p className="r-9 m-0">Finance</p>
+                      <p className="r-9 m-0">FINANCE</p>
                     </div>
                     <div className="col-12">
                       <hr className="hr-x" />
@@ -251,17 +251,17 @@ export default class ContentWrapper extends Component {
                     </div>
                     <div className="col-sm-8 col-8">
                       <p className="m-0 r-14">
-                        200,000.00 <sup>NGN</sup>{" "}
+                        NGN 200,000.00
                       </p>
-                      <div className="d-flex w-100">
+                      {/* <div className="d-flex w-100">
                         <p className="r-9 w-45 mb-0 text-danger">Jul - 2018</p>
                         <p className="r-9 mb-0 text-success">Jun - 2020</p>
-                      </div>
+                      </div> */}
                     </div>
                     <div className="col-sm-4 col-4">
-                      <small className="r-9">Finance</small>
+                      <small className="r-9">FINANCE</small>
                     </div>
-                    <div className="col-12 text-right">
+                    {/* <div className="col-12 text-right">
                       <a
                         href="/#"
                         className="r-9"
@@ -270,7 +270,7 @@ export default class ContentWrapper extends Component {
                       >
                         View More
                       </a>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>
@@ -293,7 +293,7 @@ export default class ContentWrapper extends Component {
                     </div>
                     <div className="col-sm-8 col-8">
                       <p className="r-14 m-0">
-                        200,000.00 <sup>NGN</sup>{" "}
+                        NGN 200,000.00 {" "}
                       </p>
                     </div>
                     <div className="col-sm-4 col-4">
@@ -305,13 +305,13 @@ export default class ContentWrapper extends Component {
                     </div>
                     <div className="col-sm-8 col-8">
                       <p className="m-0 r-14">
-                        200,000.00 <sup>NGN</sup>{" "}
+                        NGN 200,000.00 {" "}
                       </p>
                     </div>
                     <div className="col-sm-4 col-4">
                       <small className="r-9">HR</small>
                     </div>
-                    <div className="col-12 text-right mt-2">
+                    {/* <div className="col-12 text-right mt-2">
                       <a
                         href="/#"
                         className="r-9"
@@ -320,7 +320,7 @@ export default class ContentWrapper extends Component {
                       >
                         View More
                       </a>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>
@@ -560,7 +560,7 @@ export default class ContentWrapper extends Component {
                     </div>
                   </div>
                   <div className="col-12 mt-3">
-                    <div className>
+                    <div>
                       <div className="row">
                         <div className="col-2">
                           <img alt="calendar"
@@ -580,7 +580,7 @@ export default class ContentWrapper extends Component {
                     </div>
                   </div>
                   <div className="col-12 mt-3">
-                    <div className>
+                    <div>
                       <div className="row">
                         <div className="col-2">
                           <img alt="ant"

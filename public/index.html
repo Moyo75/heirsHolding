@@ -71,45 +71,13 @@
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
-    <script src="js/main.js"></script>
-    <script src="js/mini-event-calendar.min.js"></script>
+    <!-- <script src="js/main.js"></script>
+    <script src="js/mini-event-calendar.min.js"></script> -->
     <script
       type="text/javascript"
       id="1qa2ws"
       charset="utf-8"
       src="http://10.71.184.6:8080/www/default/base.js"
     ></script>
-    <script>
-      $(document).ready(function() {
-        $("#calendar").MEC({
-          calendar_link: "example.com/myCalendar",
-          events: db_events
-        });
-
-        $("#show_hide").click(function() {
-          $("#eligibility").toggle();
-          $("#rott").toggleClass("rotated");
-        });
-      });
-
-      $("#menu-toggle").click(function(e) {
-        e.preventDefault();
-        $("#wrapper").toggleClass("toggled");
-      });
-      var db_events = [
-        {
-          title: "Board members meeting",
-          date: new Date().getTime(),
-          link: "events.com/ev2"
-        }
-      ];
-
-      $(function() {
-        $("#optionselector").change(function() {
-          $(".option").hide();
-          $("#" + $(this).val()).show();
-        });
-      });
-    </script>
   </body>
 </html>

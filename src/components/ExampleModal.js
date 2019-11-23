@@ -226,7 +226,7 @@ export default class ExampleModal extends Component {
                     </div>
                     <div className="col-12 mb-3">
                       <div className="d-flex">
-                        <div className>
+                        <div>
                           <input type="checkbox" />
                         </div>
                         <div className=" pt-1 pl-2 r-10">
